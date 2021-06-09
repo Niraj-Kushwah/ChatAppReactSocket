@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Room from "./Room";
+import "jquery/dist/jquery.slim"
+import "bootstrap/dist/js/bootstrap.bundle"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./reduxstore/store"
+import { Provider } from 'react-redux';
+import ChatAppStore from"./reduxstore/store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Room />
+  	<Provider store={ChatAppStore}>
+    	<App />
+    </Provider> 	
   </React.StrictMode>,
   document.getElementById('root')
 );

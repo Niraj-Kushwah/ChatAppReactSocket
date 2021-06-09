@@ -1,17 +1,23 @@
-# Getting Started with Create React App
+# Getting Started with React App using socket io
 
-In the project directory have backend server socket.io, you need run: 
+## Available Scripts
 
-npm install then npm run
+In the project directory, you can run Sever:
 
-# for Front End
+First Run npm install then run npm start on project directory for start socket.io server on port 3030
 
-go to inside client Folder then you need to run same npm install then npm run
+#for front End
 
-#make sure your system port no 3000 and 3030 is not used with other one
+In the Client directory of project you can run frontend
 
-Now i have brodcast the messages using socket io and next implement login and signup functionality
+need to run npm i then npm start inside client directory
 
-#how to use it
+#how to use this app
 
-please open http://localhost:3000/ on two different Tabs and try to message it will reflect on both side 
+Open two tabs and login to join chat room for login you use its static details used for login redux and saga middleware
+
+usernme:- neeraj.kushwah@neosoftmail.com
+password:- test
+
+it is a group chat app just message from both end and you see messages over there
+

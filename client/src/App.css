@@ -24,6 +24,16 @@
   color: white;
 }
 
+.navbar-light
+{
+  background-color: indianred;
+}
+
+.navbar-nav
+{
+  display: contents!important;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +45,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  padding-top: 10px;
+}
+.mainchatdiv {
+  margin-bottom: 10px;
+  background-color: aqua;    
+  text-align: center;
+  height:400px;
+  overflow-y: scroll;
 }
